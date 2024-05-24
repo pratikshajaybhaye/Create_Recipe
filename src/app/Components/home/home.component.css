@@ -1,0 +1,23 @@
+
+  .input-group .form-control {
+    border-radius: 0;
+  }
+  
+  .input-group-append .btn {
+    border-radius: 0;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+
+  h1{
+    color: black;
+  }
+
+  

@@ -1,0 +1,20 @@
+
+<div class="container-fluid" style="background-color: lightgrey; background-size: cover; background-position: center;">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div *ngIf="recipe" class="text-center">
+          <h1>{{ recipe.title }}</h1>
+          <img [src]="recipe.image" alt="{{ recipe.title }}" class="img-fluid mb-4" />
+        
+          <div *ngIf="instructions">
+            <h2>Instructions</h2>
+            <ul class="list-group">
+              <li *ngFor="let step of instructions[0].steps" class="list-group-item">{{ step.step }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
